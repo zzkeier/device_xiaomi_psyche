@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_global-user 12 RKQ1.211001.001 V13.0.5.0.SKHMIXM release-keys
+# Unpinned blobs from alioth_global-user 12 RKQ1.211001.001 V13.0.6.0.SKHMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -118,7 +118,7 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so|2668585fa93db8ef2c1483315dfcee565fcc0be0
+vendor/lib64/hw/camera.qcom.so|48fcd093d9de87ba7338895b63007cf4dd499222
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
