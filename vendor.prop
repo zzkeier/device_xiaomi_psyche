@@ -241,9 +241,6 @@ persist.vendor.qfp=false
 persist.vendor.sys.fp.vendor=goodix_fod
 ro.boot.fpsensor=goodix_fod
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
