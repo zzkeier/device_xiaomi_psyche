@@ -38,4 +38,7 @@
     <!-- <dimen name="status_bar_left_clock_starting_padding">4dp</dimen> -->
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">16dp</dimen>
+
+    <!-- The end padding for the clock in the status bar. -->
+    <dimen name="status_bar_clock_end_padding">0dp</dimen>
 </resources>

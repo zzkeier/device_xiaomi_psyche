@@ -51,4 +51,7 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
+
+    <string name="raise_to_wake_gesture_title">Lift to wake device</string>
+    <string name="raise_to_wake_gesture_summary">Wake device to pulse notifications</string> 
 </resources>
