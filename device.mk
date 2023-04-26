@@ -91,12 +91,18 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
-
 PRODUCT_PACKAGES += \
+    AOSPAPsycheFrameworks \
+    AOSPAPsycheSystemUI \
+    PsycheCarrierConfig \
+    PsycheFrameworks \
+    PsycheSettings \
+    PsycheSystemUI \
+    FrameworksResTarget \
     WifiResTarget
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -368,7 +374,6 @@ PRODUCT_PACKAGES += \
     RemovePackages
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false

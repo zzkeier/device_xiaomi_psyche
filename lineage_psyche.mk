@@ -13,6 +13,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from psyche device
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
+# Include Lawnchair
+$(call inherit-product-if-exists, vendor/lawnchair/Lawnchair.mk)
+# Include FaceUnlock
+$(call inherit-product-if-exists, external/faceunlock/config.mk)
+
+
 PRODUCT_NAME := lineage_psyche
 PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
