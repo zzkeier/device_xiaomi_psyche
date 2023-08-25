@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_psyche.mk
+    $(LOCAL_DIR)/aosp_psyche.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_psyche-user \
-    arrow_psyche-userdebug \
-    arrow_psyche-eng
+    aosp_psyche-user \
+    aosp_psyche-userdebug \
+    aosp_psyche-eng
