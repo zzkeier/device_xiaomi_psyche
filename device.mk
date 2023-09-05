@@ -31,12 +31,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAPsycheFrameworks \
-    AOSPAPsycheSystemUI \
+    EXTRAPsycheFrameworks \
+    EXTRAPsycheSystemUI \
     PsycheCarrierConfig \
     PsycheFrameworks \
     PsycheSettings \
     PsycheSystemUI \
+    PsycheTelephony \
     FrameworksResTarget \
     WifiResTarget
 
