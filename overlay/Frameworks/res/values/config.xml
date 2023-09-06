@@ -95,5 +95,4 @@
          Refer to power.h for details.
     -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-
 </resources>
